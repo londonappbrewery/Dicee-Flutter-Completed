@@ -39,7 +39,7 @@ class _DicePageState extends State<DicePage> {
       child: Row(
         children: <Widget>[
           Expanded(
-            child: FlatButton(
+            child: TextButton(
               child: Image.asset(
                 'images/dice$leftDiceNumber.png',
               ),
@@ -50,7 +50,7 @@ class _DicePageState extends State<DicePage> {
           ),
           //Get students to create the second die as a challenge
           Expanded(
-            child: FlatButton(
+            child: TextButton(
               child: Image.asset(
                 'images/dice$rightDiceNumber.png',
               ),
